@@ -1,0 +1,33 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 1fr, 4fr, auto, 1fr;
+}
+
+.topnav {
+	grid-column: 1 / -1;
+	background-color: rgb(255, 194, 153);
+}
+
+.header {
+	grid-column: 1 / -1;
+	background-color: rgb(170, 231, 255);
+}
+
+.content {
+	grid-column: 1 / -1;
+	background-color: rgb(170, 255, 170);
+}
+
+.footer {
+	grid-column: 1 / -1;
+	background-color: rgb(249, 255, 170);
+}
